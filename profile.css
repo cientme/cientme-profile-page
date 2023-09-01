@@ -1,0 +1,806 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+}
+
+/* ================= container of profile start here ================ */
+.container{
+    /* width: calc(100% - 250px); */
+    width: 96vw;
+    height: 100vh;
+    /* height: auto; */
+    margin-left: 0.5vw;
+    /* background-color: aqua; */
+    border: 2px solid black;
+
+    
+}
+
+/* ================= container of profile end here ================ */
+
+
+/* ================= section-1 of profile start here ================ */
+/* ########## css for section start here ############## */
+.profile-section-1{
+    width: 72vw;
+    height: 78vh;
+    margin-left: 10vw;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #9a9a9a;
+}
+/* ########## css for section end here ############## */
+
+/* ########## css for box1 start here ############## */
+.box1{
+    width: 45vw;
+    height: 38vw;
+    margin-top: 2vw;
+    /* background-color: antiquewhite; */
+    /* border: 2px solid black; */
+    display: flex;
+}
+/* ########## css for box1 end here ############## */
+
+/* ########## css for a-tag start here ############## */
+.box1  a{
+    text-decoration: none;
+    color: black;
+}
+/* ########## css for a-tag end here ############## */
+
+
+/* ########## css for profile-page profile-pic  start here ############## */
+.box1 .profile-pic a img{
+        width: 12vw;
+        height: 12vw;
+        border-radius: 50%;
+        margin-top: 2vw;
+        margin-left: 1vw;
+}
+/* ########## css for profile-page profile-pic  end here ############## */
+
+
+/* ########## css for profile-page name start here ############## */
+.box1 .profile-pic .name{
+    font-size: 2vw;
+    font-weight: 600;
+    text-align: center;
+    
+}
+
+/* ########## css for profile-page name  end here ############## */
+
+
+/* ########## css for profile-page @username  start here ############## */
+.box1 .profile-pic .username{
+    font-size: 1.2vw;
+    font-weight: 500;
+    text-align: center;
+}
+/* ########## css for profile-page @username  end here ############## */
+
+
+/* ########## css for profile-page edit-profile  start here ############## */
+.box1 .profile-pic .edit-profile{
+    font-size: 1vw;
+    margin-top: 3vh;
+    border-radius: 8px;
+    position: relative;
+    top: 3.5vw;
+       
+}
+/* ########## css for profile-page edit-profile  end here ############## */
+
+/* ########## css for profile-page edit-profile p-tag start here ############## */
+.box1 .profile-pic .edit-profile p{
+    text-align: center;
+    font-size: 1.5vw;
+}
+/* ########## css for profile-page edit-profile p-tag end here ############## */
+
+/* ########## css for profile-page edit-profile p-tag icon-hover start here ############## */
+.box1 .profile-pic .edit-profile p i:hover{
+    color: red;
+    
+}
+/* ########## css for profile-page edit-profile p-tag icon-hover end here ############## */
+
+
+/* ########## css for profile-page profile-pic p-tag spam-tag start here ############## */
+.box1 .profile-pic p span{
+    font-size: 2vw;
+    font-weight: 600;
+    color: red;
+}
+/* ########## css for profile-page profile-pic p-tag spam-tag end here ############## */
+
+
+/* ########## css for profile-page profile-pic p-tag start here ############## */
+.box1 .profile-pic p{
+    font-size: 2vw;
+    font-weight: 600;
+    margin-left: 1.2vw;
+}
+/* ########## css for profile-page profile-pic p-tag end here ############## */
+
+/* ########## css for profile-page user-info profile-card start here ############## */
+.box1 .user-info .profile-card{
+    width: 30vw;
+    font-size: 2vw;
+    font-weight: 400;
+    text-align: center;
+    margin-top: -2vh;
+    margin-bottom: 2vh;
+    border-bottom: 1px solid #9a9a9a;
+}
+/* ########## css for profile-page user-info profile-card end here ############## */
+
+
+
+/* ########## css for profile-page user-info-div start here ############## */
+.box1 .user-info{
+    margin-top: 5vh;
+    margin-left: 1vw;
+    flex-wrap: nowrap;
+}
+/* ########## css for profile-page user-info-div end here ############## */
+
+/* ########## css for profile-page user-info a-tag spam start here ############## */
+.box1 .user-info  a span{
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin: 0 0.5vw;
+}
+/* ########## css for profile-page user-info a-tag spam end here ############## */
+
+
+/* ########## css for profile-page user-info a-tag spam strong start here ############## */
+.box1 .user-info a span strong{
+    color: black;
+}
+/* ########## css for profile-page user-info a-tag spam strong start here ############## */
+
+/* ########## css for profile-page user-info a-tag spam strong-hover start here ############## */
+.box1 .user-info a span strong:hover{
+    color: red;
+}
+/* ########## css for profile-page user-info a-tag spam strong-hover start here ############## */
+
+
+/* ########## css for profile-page user-info hearts-collabe-info start here ############## */
+.box1 .user-info .hearts-collabe-info{
+    margin-top: 2vw;
+}
+/* ########## css for profile-page user-info hearts-collabe-info end here ############## */
+
+
+/* ########## css for profile-page user-info hearts-collabe-info heart start here ############## */
+.box1 .user-info .hearts-collabe-info .fa-heart{
+    font-size: 1.8vw;
+    color: red;
+
+}
+/* ########## css for profile-page user-info hearts-collabe-info heart end here ############## */
+
+
+/* ########## css for profile-page user-info hearts-collabe-info black-heart start here ############## */
+.box1 .user-info .hearts-collabe-info .black-heart{
+    font-size: 1.8vw;
+    color: black;
+}
+/* ########## css for profile-page user-info hearts-collabe-info black-heart start here ############## */
+
+
+/* ########## css for profile-page user-info follow-message start here ############## */
+.box1 .user-info .follow-message{
+        margin-top: 2.5vw;
+}
+/* ########## css for profile-page user-info follow-message end here ############## */
+
+
+/* ########## css for profile-page user-info follow-message button start here ############## */
+.box1 .user-info .follow-message  button{
+    width: 12vw;
+    height: 3vw;
+    margin-left: 1.5vw;
+    color: white;
+    font-weight: 400;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(231, 41, 82);
+         
+}
+/* ########## css for profile-page user-info follow-message button end here ############## */
+
+
+/* ########## css for profile-page user-info follow-message button spam start here ############## */
+.box1 .user-info .follow-message  button span{
+    color: white;
+    padding: 0.5vw;
+}
+/* ########## css for profile-page user-info follow-message button spam send here ############## */
+
+
+
+/* ########## css for profile-page user-info follow-message button-hover start here ############## */
+.box1 .user-info .follow-message button:hover{
+    background-color: black;   
+}
+/* ########## css for profile-page user-info follow-message button-hover end here ############## */
+
+
+/* ########## css for profile-page user-info follow-message button spam-hover start here ############## */
+.box1 .user-info .follow-message button a span:hover{
+    color: red;
+    
+}
+/* ########## css for profile-page user-info follow-message button spam-hover end here ############## */
+
+
+/* ########## css for profile-page user-info bio start here ############## */
+.box1 .user-info .bio{
+    width: 30vw;
+    height: 10vh;
+    margin: 4vh 0;
+    /* background-color: chocolate; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* ########## css for profile-page user-info bio h3-tag here ############## */
+.box1 .user-info .bio h3{
+    font-size: 1.2vw;
+    font-weight: 800;
+}
+/* ########## css for profile-page user-info bio p-tag  here ############## */
+.box1 .user-info .bio p{
+    font-size: 1vw;
+    font-weight: 450;
+    
+}
+/* ########## css for profile-page user-info bio end here ############## */
+
+
+/* =========== css for profile-page highlights start here ============= */
+.highlights{
+    width: 42vw;
+    height: 11vw;
+    margin-top: 3vw;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 2vw;
+    left: -12vw;
+}
+
+
+/* ########## css for profile-page highlights add-new-highlight here ############## */
+.highlights .add-new-highlight{
+    width: 7vw;
+    height: 10vw;
+    /* background-color: red; */
+    text-align: center;
+    margin-bottom: 1.5vw;
+    
+}
+
+/* ########## css for profile-page highlights add-new-highlight icon here ############## */
+.highlights .add-new-highlight i{
+    width: 5.5vw;
+    height: 5.5vw;
+    font-size: 3.5vw;
+    font-weight: 100;
+    color: #9a9a9a;
+    border-radius: 50%;
+    border: 1.5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0.8vw;
+    margin-left: 0.5vw;
+     
+}
+
+/* ########## css for profile-page highlights display-all-highlights icon here ############## */
+.highlights .display-all-highlights{
+    width: 37vw;
+    height: 12vw;
+    margin-left: 1vw;
+    /* background-color: blueviolet; */
+    /* border: 1px solid #9a9a9a; */
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: scroll;
+}
+
+
+/* ########## css for profile-page highlights display-all-highlights::-webkit-scrollbar here ############## */
+.highlights .display-all-highlights::-webkit-scrollbar{
+    width: 0px;
+}
+
+
+/* ########## css for profile-page highlights display-new-highlight here ############## */
+.highlights .display-new-highlight{
+    width: 7vw;
+    height: 10vw;
+    /* background-color:blue; */
+    text-align: center;
+    margin-left: 1.2vw;
+   
+    
+    
+}
+
+/* ########## css for profile-page highlights display-new-highlight img here ############## */
+.highlights
+.display-new-highlight img{
+    width: 5.5vw;
+    height: 5.5vw;
+    border-radius: 50%;
+    margin-top: 0.5vw;
+    
+    
+}
+
+
+/* ########## css for profile-page highlights display-new-highlight p-tag here ############## */
+.highlights p{
+    font-size: 1vw;
+
+}
+/* =========== css for profile-page highlights end here ============= */
+
+
+/* =========== css for profile-page cover start here ============= */
+.cover-img{
+    width: 25.3vw;
+    height: 38.3vw;
+    margin-top: 2vw;
+    /* border: 2px solid black; */
+
+   
+}
+
+
+.cover-img img{
+    width: 25vw;
+    height: 38vw;
+}
+/* =========== css for profile-page cover end here ============= */
+
+
+
+/* ================= section-1 of profile end here ================ */
+
+/* ================= section-2 of profile end here ================ */
+.profile-section-2{
+    margin-top: 5vh;
+    margin-left: -2vw;
+    display: flex;
+    justify-content: center;
+}
+
+.posts-reels-tagged a{
+        margin-left: 4vw;       
+        
+}
+
+.posts-reels-tagged ul{
+    list-style: none;
+    display: flex;
+}
+
+.posts-reels-tagged  li a:hover .fa-solid,
+.posts-reels-tagged  li a:hover .text{
+    color: red;
+    
+    
+}
+/* ================= section-2 of profile end here ================ */
+
+
+
+
+
+/* ########## (screen-2) Media query for screens with a width between 768 to 992px   start here ############## */
+@media (min-width: 768px) and (max-width: 992px){
+
+/* ================= section-1 of profile start here ================ */
+/* ########## css for section start here ############## */
+.profile-section-1{
+    width: 85vw;
+    height: 72vh;
+    /* background-color: chartreuse; */
+    margin-left: 3vw;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #9a9a9a;
+}
+/* ########## css for section end here ############## */
+
+
+/* ########## css for box1 start here ############## */
+.box1{
+    width: 52.5vw;
+    height: 54vw;
+    margin-top: 2vw;
+    /* background-color: antiquewhite; */
+    /* border: 2px solid black; */
+    display: flex;
+}
+/* ########## css for box1 end here ############## */
+
+
+/* ########## css for a-tag start here ############## */
+.box1  a{
+    text-decoration: none;
+    color: black;
+}
+/* ########## css for a-tag end here ############## */
+
+/* ########## css for profile-page profile-pic  start here ############## */
+.box1 .profile-pic a img{
+    width: 14vw;
+    height: 14vw;
+    border-radius: 50%;
+    margin-top: 2vw;
+    margin-left: 1vw;
+}
+/* ########## css for profile-page profile-pic  end here ############## */
+
+
+/* ########## css for profile-page name start here ############## */
+.box1 .profile-pic .name{
+    font-size: 2.5vw;
+    font-weight: 600;
+    text-align: center;
+    
+}
+/* ########## css for profile-page name  end here ############## */
+
+
+/* ########## css for profile-page @username  start here ############## */
+.box1 .profile-pic .username{
+    font-size: 1.5vw;
+    font-weight: 500;
+    text-align: center;
+}
+/* ########## css for profile-page @username  end here ############## */
+
+/* ########## css for profile-page edit-profile  start here ############## */
+.box1 .profile-pic .edit-profile{
+    font-size: 1.5vw;
+    /* margin-top: 3vh; */
+    border-radius: 8px;
+    position: relative;
+    top: 4.5vw;
+       
+}
+/* ########## css for profile-page edit-profile  end here ############## */
+
+/* ########## css for profile-page edit-profile p-tag start here ############## */
+.box1 .profile-pic .edit-profile p{
+    text-align: center;
+    font-size: 1.5vw;
+}
+/* ########## css for profile-page edit-profile p-tag end here ############## */
+
+
+/* ########## css for profile-page edit-profile p-tag icon-hover start here ############## */
+.box1 .profile-pic .edit-profile p i:hover{
+    color: red;
+    
+}
+/* ########## css for profile-page edit-profile p-tag icon-hover end here ############## */
+
+/* ########## css for profile-page profile-pic p-tag spam-tag start here ############## */
+/* .box1 .profile-pic p span{
+    font-size: 5vw;
+    font-weight: 600;
+    color: red;
+} */
+/* ########## css for profile-page profile-pic p-tag spam-tag end here ############## */
+
+/* ########## css for profile-page profile-pic p-tag start here ############## */
+.box1 .profile-pic p{
+    font-size: 2vw;
+    font-weight: 600;
+    margin-left: 1.2vw;
+}
+/* ########## css for profile-page profile-pic p-tag end here ############## */
+
+
+/* ########## css for profile-page user-info profile-card start here ############## */
+.box1 .user-info .profile-card{
+    width: 30vw;
+    font-size: 3vw;
+    font-weight: 400;
+    text-align: center;
+    margin-top: -2vh;
+    margin-bottom: 2vh;
+    border-bottom: 1px solid #9a9a9a;
+}
+/* ########## css for profile-page user-info profile-card end here ############## */
+
+
+/* ########## css for profile-page user-info-div start here ############## */
+.box1 .user-info{
+    margin-top: 5vh;
+    margin-left: 1vw;
+    flex-wrap: nowrap;
+}
+/* ########## css for profile-page user-info-div end here ############## */
+
+
+/* ########## css for profile-page user-info a-tag spam start here ############## */
+.box1 .user-info  a span{
+    font-size: 1.8vw;
+    font-weight: 500;
+    margin: 0 0.5vw;
+}
+/* ########## css for profile-page user-info a-tag spam end here ############## */
+
+
+/* ########## css for profile-page user-info a-tag spam strong start here ############## */
+.box1 .user-info a span strong{
+    color: black;
+}
+/* ########## css for profile-page user-info a-tag spam strong start here ############## */
+
+/* ########## css for profile-page user-info a-tag spam strong-hover start here ############## */
+.box1 .user-info a span strong:hover{
+    color: red;
+}
+/* ########## css for profile-page user-info a-tag spam strong-hover start here ############## */
+
+
+/* ########## css for profile-page user-info hearts-collabe-info start here ############## */
+.box1 .user-info .hearts-collabe-info{
+    margin-top: 2vw;
+}
+/* ########## css for profile-page user-info hearts-collabe-info end here ############## */
+
+
+/* ########## css for profile-page user-info hearts-collabe-info heart start here ############## */
+.box1 .user-info .hearts-collabe-info .fa-heart{
+    font-size: 2vw;
+    color: red;
+
+}
+/* ########## css for profile-page user-info hearts-collabe-info heart end here ############## */
+
+
+/* ########## css for profile-page user-info hearts-collabe-info black-heart start here ############## */
+.box1 .user-info .hearts-collabe-info .black-heart{
+    font-size: 2vw;
+    color: black;
+}
+/* ########## css for profile-page user-info hearts-collabe-info black-heart start here ############## */
+
+
+/* ########## css for profile-page user-info follow-message start here ############## */
+.box1 .user-info .follow-message{
+    margin-top: 2.5vw;
+}
+/* ########## css for profile-page user-info follow-message end here ############## */
+
+/* ########## css for profile-page user-info follow-message button start here ############## */
+.box1 .user-info .follow-message  button{
+    width: 18vw;
+    height: 4vw;
+    margin: 1vw;
+    color: white;
+    font-weight: 400;
+    /* background-color: rgb(231, 41, 82); */
+    border-radius: 8px;
+    border: none;
+    position: relative;
+    left: -5vw;
+         
+}
+/* ########## css for profile-page user-info follow-message button end here ############## */
+
+
+
+/* ########## css for profile-page user-info follow-message button spam start here ############## */
+.box1 .user-info .follow-message  button span{
+    color: white;
+    padding: 0.5vw;
+}
+/* ########## css for profile-page user-info follow-message button spam send here ############## */
+
+
+/* ########## css for profile-page user-info follow-message button-hover start here ############## */
+.box1 .user-info .follow-message button:hover{
+    background-color: black;   
+}
+/* ########## css for profile-page user-info follow-message button-hover end here ############## */
+
+
+/* ########## css for profile-page user-info follow-message button spam-hover start here ############## */
+.box1 .user-info .follow-message button a span:hover{
+    color: red;
+    
+}
+/* ########## css for profile-page user-info follow-message button spam-hover end here ############## */
+
+
+
+/* ########## css for profile-page user-info bio start here ############## */
+.box1 .user-info .bio{
+    width: 35vw;
+    height: 14vh;
+    margin: 2vh 0;
+    /* background-color: chocolate; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* ########## css for profile-page user-info bio h3-tag here ############## */
+.box1 .user-info .bio h3{
+    font-size: 2vw;
+    font-weight: 800;
+}
+/* ########## css for profile-page user-info bio p-tag  here ############## */
+.box1 .user-info .bio p{
+    font-size: 1.6vw;
+    font-weight: 400;
+    
+}
+/* ########## css for profile-page user-info bio end here ############## */
+
+
+/* =========== css for profile-page highlights start here ============= */
+.highlights{
+    width: 48vw;
+    height: 15vw;
+    margin-top: 3vw;
+    /* background-color: aqua; */
+    display: flex;
+    align-items: center;
+    position: relative;
+    bottom: 2vw;
+    left: -12vw;
+}
+
+
+/* ########## css for profile-page highlights add-new-highlight here ############## */
+.highlights .add-new-highlight{
+    width: 8vw;
+    height: 13vw;
+    /* background-color: red; */
+    text-align: center;
+    margin-bottom: 1.8vw;
+    
+}
+
+/* ########## css for profile-page highlights add-new-highlight icon here ############## */
+.highlights .add-new-highlight i{
+    width: 7vw;
+    height: 7vw;
+    font-size: 3.5vw;
+    font-weight: 100;
+    color: #9a9a9a;
+    border-radius: 50%;
+    border: 1.5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1vw;
+    margin-left: 0.4vw;
+    margin-bottom: 0.8vw;
+     
+}
+
+/* ########## css for profile-page highlights display-all-highlights icon here ############## */
+.highlights .display-all-highlights{
+    width: 40vw;
+    height: 15vw;
+    margin-left: -0.2vw;
+    /* background-color: blueviolet; */
+    /* border: 1px solid #9a9a9a; */
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    overflow-x: scroll;
+}
+
+
+/* ########## css for profile-page highlights display-all-highlights::-webkit-scrollbar here ############## */
+.highlights .display-all-highlights::-webkit-scrollbar{
+    width: 0px;
+}
+
+
+/* ########## css for profile-page highlights display-new-highlight here ############## */
+.highlights .display-new-highlight{
+    width: 15vw;
+    height: 13vw;
+    /* background-color:blue; */
+    text-align: center;
+    margin-left: 1vw;
+   
+    
+    
+}
+
+/* ########## css for profile-page highlights display-new-highlight img here ############## */
+.highlights
+.display-new-highlight img{
+    width: 7vw;
+    height: 7vw;
+    border-radius: 50%;
+    margin-top: 0.8vw;
+    
+    
+}
+
+
+/* ########## css for profile-page highlights display-new-highlight p-tag here ############## */
+.highlights p{
+    font-size: 1.5vw;
+
+}
+/* =========== css for profile-page highlights end here ============= */
+
+
+/* =========== css for profile-page cover start here ============= */
+.cover-img{
+    width: 32.3vw;
+    height: 54.3vw;
+    margin-top: 2vw;
+    /* border: 2px solid black; */
+
+   
+}
+
+
+.cover-img img{
+    width: 32vw;
+    height: 54vw;
+}
+/* =========== css for profile-page cover end here ============= */
+
+/* ================= section-1 of profile end here ================ */
+
+/* ================= section-2 of profile end here ================ */
+.profile-section-2{
+    margin-top: 5vh;
+    margin-left: -2vw;
+    display: flex;
+    justify-content: center;
+}
+
+.posts-reels-tagged a{
+        margin-left: 4vw;       
+        
+}
+
+.posts-reels-tagged ul{
+    list-style: none;
+    display: flex;
+}
+
+.posts-reels-tagged  li a:hover .fa-solid,
+.posts-reels-tagged  li a:hover .text{
+    color: red;
+    
+    
+}
+/* ================= section-2 of profile end here ================ */
+
+
+
+
+
+
+
+}
